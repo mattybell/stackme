@@ -7,7 +7,7 @@ RUN apk add --no-cache \
         libmcrypt-dev \
         libpng-dev \
         #libmemcached-dev \
-        #postgresql-dev \ 
+        postgresql-dev \ 
         #libzip-dev \
         zip \
         unzip \
