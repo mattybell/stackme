@@ -1,5 +1,5 @@
 FROM php:7.2-fpm-alpine
-MAINTAINER Matt Hartstonge <matbel@live.com>
+MAINTAINER Matt  <matbel@live.com>
 
 RUN apk add --no-cache \
         freetype-dev \
