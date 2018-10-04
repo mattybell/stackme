@@ -1,5 +1,5 @@
-FROM php:7.2-fpm-alpine
-MAINTAINER Matt  <matbel@live.com>
+FROM php:7.1-fpm-alpine
+MAINTAINER Matt <matbel@live.com>
 
 RUN apk add --no-cache \
         freetype-dev \
@@ -7,8 +7,8 @@ RUN apk add --no-cache \
         libmcrypt-dev \
         libpng-dev \
         #libmemcached-dev \
-        postgresql-dev \ 
-        libzip-dev \
+        #postgresql-dev \ 
+        #libzip-dev \
         zip \
         unzip \
     # Compile PHP extra libs
